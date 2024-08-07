@@ -7,7 +7,7 @@ const finalMessageTime = new Date('January 1, 2025 00:00:00 PST').getTime();
 
 function padZero(num) {
   return num < 10 ? '0' + num : num;
-}
+} //
 
 function updateTimer() {
   const now = new Date().getTime();
