@@ -1,8 +1,8 @@
 const timerElement = document.getElementById('timer');
 const messageElement = document.getElementById('message');
 
-const startTime = new Date('December 24, 2024 02:00:00 PST').getTime();
-const endTime = new Date('December 25, 2024 02:00:00 PST').getTime();
+const startTime = new Date('December 24, 2024 03:00:00 PST').getTime();
+const endTime = new Date('December 25, 2024 03:00:00 PST').getTime();
 const finalMessageTime = new Date('January 1, 2025 00:00:00 PST').getTime();
 
 function padZero(num) {
